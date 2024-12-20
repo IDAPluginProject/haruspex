@@ -5,15 +5,16 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [0.1.4] - 2014-12-20
 
 ### Added
 
-* Document Linux as a supported platform, specify that Windows was not tested.
+* Document Linux as a supported platform and specify that Windows was not tested.
 
 ### Changed
 
 * Bump to IDA Pro 9.0.241217 (9.0sp1).
+* Switch to idalib v0.4 and update other dependencies.
 
 ## [0.1.3] - 2024-12-16
 
@@ -55,7 +56,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * First release to be published to [crates.io](https://crates.io/).
 
-[unreleased]: https://github.com/0xdea/haruspex/compare/v0.1.3...HEAD
+[unreleased]: https://github.com/0xdea/haruspex/compare/v0.1.4...HEAD
+
+[0.1.4]: https://github.com/0xdea/haruspex/compare/v0.1.3...v0.1.4
 
 [0.1.3]: https://github.com/0xdea/haruspex/compare/v0.1.2...v0.1.3
 
