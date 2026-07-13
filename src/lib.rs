@@ -142,7 +142,6 @@ pub fn run(filepath: impl AsRef<Path>) -> anyhow::Result<usize> {
 ///
 /// Basic usage:
 /// ```
-/// # fn main() -> anyhow::Result<()> {
 /// # let base_dir = std::path::Path::new("./tests/data");
 /// let input_file = base_dir.join("ls");
 /// let output_file = base_dir.join("ls-main.c");
@@ -155,8 +154,7 @@ pub fn run(filepath: impl AsRef<Path>) -> anyhow::Result<usize> {
 ///
 /// haruspex::decompile_to_file(&idb, &func, &output_file)?;
 /// # std::fs::remove_file(output_file)?;
-/// # Ok(())
-/// # }
+/// # Ok::<(), anyhow::Error>(())
 /// ```
 ///
 pub fn decompile_to_file(
