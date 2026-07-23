@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Improve doctests that return a `Result`.
 - Add credits section to README.
 - Improve comments.
+- Improve unit test names.
 - Improve CI.
 - Update dependencies.
 

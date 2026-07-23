@@ -319,7 +319,7 @@ mod tests {
     }
 
     #[test]
-    fn sanitize_filename_empty_string() {
+    fn sanitize_filename_on_empty_name_produces_empty_string() {
         assert_eq!(
             sanitize_filename(""),
             "",
@@ -348,7 +348,7 @@ mod tests {
     }
 
     #[test]
-    fn sanitize_filename_short_names_unchanged_length() {
+    fn sanitize_filename_with_short_names_retains_their_length() {
         let short = "a".repeat(MAX_FILENAME_LEN - 1);
         assert_eq!(
             sanitize_filename(&short).len(),
